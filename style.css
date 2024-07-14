@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 184px 0 145px;
+  background-color: hsl(226, 43%, 10%);
+}
+
+.container {
+  border-radius: 8px;
+  padding: 26px 32px 32px;
+  background-color: hsl(235, 46%, 20%);
+  color: #fff;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 255px);
+  row-gap: 78px;
+  column-gap: 30px;
+  grid-template-rows: 198px;
+}
+
+.jeremy {
+  grid-row: 1/3;
+  width: 255px;
+  height: 526px;
+  top: 253px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: hsl(246, 80%, 60%);
+}
+
+.work,
+.play,
+.study {
+  width: 255px;
+  height: 250px;
+  top: 298px;
+  left: 450px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.exercise,
+.social,
+.selfcare {
+  width: 255px;
+  height: 250px;
+  top: 572px;
+  left: 1020px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.text {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.text p {
+  margin-bottom: 2px;
+  color: hsl(236, 100%, 87%);
+}
+
+.info {
+  font-size: 40px;
+  width: 50%;
+}
+
+img {
+  padding-top: 15px;
+}
+
+.li section {
+  padding: 9px;
+  color: hsl(236, 100%, 87%);
+  cursor: pointer;
+}
+
+.li section:hover {
+  color: #fff;
+}
+
+.work-head,
+.play-head,
+.study-head,
+.exercise-head,
+.social-head,
+.selfcare-head {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 45px;
+  font-size: 18px;
+}
+
+.work-hour,
+.play-hour,
+.study-hour,
+.exercise-hour,
+.social-hour,
+.selfcare-hour {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.work-time p {
+  margin-top: 4px;
+  color: hsl(236, 100%, 87%);
+}
+.play-time p {
+  margin-top: 4px;
+  color: hsl(236, 100%, 87%);
+}
+.study-time p {
+  margin-top: 4px;
+  color: hsl(236, 100%, 87%);
+}
+.exercise-time p {
+  margin-top: 4px;
+  color: hsl(236, 100%, 87%);
+}
+.social-time p {
+  margin-top: 4px;
+  color: hsl(236, 100%, 87%);
+}
+.selfcare-time p {
+  margin-top: 4px;
+  color: hsl(236, 100%, 87%);
+}
+
+.dots {
+  cursor: pointer;
+  color: hsl(236, 100%, 87%);
+}
